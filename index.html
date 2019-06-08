@@ -1,36 +1,19 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="">
   <head>
     <title>Aziz Alimov's personal portfolio</title>
-    <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="stylesheet" href="styles/styles.css">
 
     <script async src="./javascript/index.js"></script>
     <script async src="./javascript/buttons.js"></script>
-    <script src="/Users/azuzialimov/.npm/ng-workshop/node_modules/angular/angular.js"> </script>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.8/angular.min.js"></script>
   </head>
 
-
-
+    <div> <ng-include src="'templates/header.htm'"> </ng-include>
   <body>
 
-    <div class="header"> <strong> Aziz Alimov </strong> </div>
-
-  <div class="dropdown">
-    <button onclick="dropdown()" class="dropbtn">About</button>
-    <div id="myDropdown" class="dropdown-content">
-     <a href="AboutPages/About2020.html">2020</a>
-     <a href="AboutPages/About2019.html">2019</a>
-     <a href="AboutPages/About2018.html">2018</a>
     </div>
-  </div>
-
-  <div>
-  <button class="dropbtn">Contact</button>
-  </div>
-
-
-  <h4 id='date'></h4>
 
     <div class="image-section">
     	<div class="section-style">

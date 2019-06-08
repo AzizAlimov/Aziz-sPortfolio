@@ -1,6 +1,5 @@
 body {
   background-color: #f0e8c5;
-  border: 5px solid blue;
 }
 
 h2 {
@@ -10,14 +9,8 @@ h2 {
 }
 
 div {
-  margin-top: 5px;
   position: relative;
 }
-
-h4 {
-  position: relative;
-}
-
 
 .image-section {
   display: flex;
@@ -30,18 +23,34 @@ h4 {
   background-color: white;
 }
 
+.dropbtn-container {
+  background-color: #3498DB;
+  color: white;
+  font-size: 16px;
+  border: none;
+  position: inline-block;
+}
+
 .dropbtn {
   background-color: #3498DB;
   color: white;
-  padding: 16px;
   font-size: 16px;
   border: none;
+  position: inline-block;
+  padding: 16px;
+}
+.dropbtn-container a {
   cursor: pointer;
+  padding: 16px;
+  background-color: #3498DB;
+  color: white;
+  font-size: 16px;
+  border: none;
   position: inline-block;
 }
 
 /* Dropdown button on hover & focus */
-.dropbtn:hover, .dropbtn:focus {
+.dropbtn-container a:hover, .dropbtn:focus {
   background-color: #2980B9;
   position: inline-block;
 }
@@ -50,8 +59,8 @@ h4 {
 .dropdown {
   text-align: relative;
   position: inline-block;
-  left: 300px;
   display:inline-block;
+
 }
 
 /* Dropdown Content (Hidden by Default) */
@@ -68,7 +77,7 @@ h4 {
 /* Links inside the dropdown */
 .dropdown-content a {
   color: black;
-  padding: 12px 16px;
+  padding: 12px;
   text-decoration: none;
   display: block;
 }
@@ -79,14 +88,6 @@ h4 {
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {display:block;}
 
-.border {
-  display: block;
-  background-color: #575CF3;
-  margin-top: 5px;
-  position: relative;
-  border: 5px solid blue;
-  border-left: 15px solid blue;
-}
 
 .header {
   padding: 16px;
